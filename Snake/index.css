@@ -1,10 +1,11 @@
 html, body {
     margin: 0 auto;
-    padding: 10;
-    align-items: center;
+    text-align: center;
     font-size: 1rem;
+    font-family: font-family: 'Be Vietnam Pro', sans-serif;
     background: linear-gradient(to top left, grey, white)
 }
+
 
 .grid {
     display: flex;
@@ -12,6 +13,8 @@ html, body {
     width: 200px;
     height: 200px;
     border: solid 2px black;
+    box-shadow: 3px 1px 1px darkgrey;
+    margin: 0 auto;
 }
 
 .square {
@@ -20,7 +23,7 @@ html, body {
 }
 
 .snake {
-    background: linear-gradient(to left, rgba(23, 94, 40, 0.637), rgba(48, 40, 20, 0.637));
+    background: green;
     border-radius: 30%;
 }
 
@@ -32,8 +35,9 @@ html, body {
 
 button {
     font-size: 1.2em;
-    border: solid 1px blue;
+    border: solid 1px grey;
     padding: .8em;
-    border-radius: 10%;
-
+    border-radius: 10px;
+    box-shadow: 3px 1px 1px darkgrey;
+    text-transform: uppercase;
 }
