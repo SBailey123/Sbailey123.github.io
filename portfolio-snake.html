@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>DevSolenne Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="#" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Creating a <strong>snake game</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A simple snake style game</p>
+            <img src="./images/stock1.jpg" alt="computer screen with code on it" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>This simplified version of Snake focuses on logic, making sure that the snake doesn't move off of the grid, increases speed and grows when it 'eats' an apple and so on...</p>
+            <img src="./images/snake.png" alt="retro snake game" class="portfolio-img1">
+            <p>There are 19 different JavaScript methods used in the Snake game, some of the methods included are: 
+                <ul>
+                    <li>addEventListener()</li>
+                    <li>.pop()</li>
+                    <li>.unshift()</li>
+                    <li>.push()</li>
+                    <li>setTimeout()</li>
+                    <li>setInterval()</li>
+                    <li>.keyCode()</li>
+                </ul>
+            </p>
+            <p>The styling throughout he course tutorial was very basic, I have since gone in to add my own original styling to the game using CSS.</p>
+            <a href="Snake/index.html" target="_blank" class="btn">Click here to play the Snake game</a>
+        </div>
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="dev@sollyb.com" class="footer__link">dev@sollyb.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/solenne-bailey/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/SBailey123">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
