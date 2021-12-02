@@ -44,6 +44,8 @@ function startGame() {
     //readd the class of snake to our new currentSnake
     currentSnake.forEach(index => squares[index].classList.add('snake'))
     timerId = setInterval(move, intervalTime)
+    //change button text
+    document.getElementById("start").textContent = "Restart"
 }
 
 function move() {
