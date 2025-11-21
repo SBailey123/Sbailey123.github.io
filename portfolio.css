@@ -415,7 +415,7 @@ header {
 }
 
 .bos_portfolio {
-    width: 95%;
+    padding:0 10px;
 }
 
 .portfolio__item:focus {
@@ -494,3 +494,4 @@ header {
     width: 100%;
 
 }
+
