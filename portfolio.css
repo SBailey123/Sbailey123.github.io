@@ -414,10 +414,6 @@ header {
     overflow: none;
 }
 
-.bos_portfolio {
-    padding:0 10px;
-}
-
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
@@ -494,4 +490,5 @@ header {
     width: 100%;
 
 }
+
 
