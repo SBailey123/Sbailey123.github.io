@@ -414,6 +414,10 @@ header {
     overflow: none;
 }
 
+.bos_portfolio {
+    width: 95%;
+}
+
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
@@ -488,4 +492,5 @@ header {
 .truck_pic {
     height: auto;
     width: 100%;
+
 }
