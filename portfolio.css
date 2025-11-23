@@ -121,7 +121,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: .25em 1em .25em 2em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
