@@ -322,6 +322,20 @@ header {
     margin: 0 auto;
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto 4em;
+}
+
+.service {
+    flex: 1 1 250px;
+    max-width: 350px;
+}
+
 @media (min-width: 800px) {
     .services {
         display: flex;
@@ -490,5 +504,6 @@ header {
     width: 100%;
 
 }
+
 
 
